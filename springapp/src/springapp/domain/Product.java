@@ -5,9 +5,16 @@ import java.io.Serializable;
 public class Product implements Serializable {
 	
 	private int id;
-
     private String description;
     private Double price;
+//    rate id="USDEUR">
+//    <Name>USD/EUR</Name>
+//    <Rate>0.8798</Rate>
+//    <Date>6/4/2016</Date>
+//    <Time>12:29pm</Time>
+//    <Ask>0.8800</Ask>
+//    <Bid>0.8798</Bid>
+    
     
     public void setId(int i) {
         id = i;

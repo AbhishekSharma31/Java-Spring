@@ -8,6 +8,7 @@ import springapp.domain.Product;
 public interface ProductManager extends Serializable{
 
     public void increasePrice(int percentage);
+    public void decreasePrice(int percentage);
     
     public List<Product> getProducts();
     
